@@ -1,0 +1,8 @@
+.list-container {
+  background-color: #d8eeed;
+}
+
+.list-container ul {
+  list-style: none;
+  padding: 20px 30px;
+}
