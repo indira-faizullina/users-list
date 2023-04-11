@@ -17,7 +17,7 @@ function AddForm(props) {
       return
     }
 
-    console.log(inputUserName, inputUserAge)
+    props.onCreateUser(inputUserName, inputUserAge)
     setInputUserName('')
     setInputUserAge('')
   }

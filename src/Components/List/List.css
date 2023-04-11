@@ -4,5 +4,12 @@
 
 .list-container ul {
   list-style: none;
-  padding: 20px 30px;
+  padding: 20px 40px;
+}
+
+.list-container ul li {
+  background-color: #fff;
+  margin: 20px 0;
+  padding: 5px 20px;
+  border: 1px solid #ccc;
 }

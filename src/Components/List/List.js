@@ -1,12 +1,15 @@
 import Card from '../UI/Card'
 import './List.css'
-import ListItem from './ListItem'
 
-function List() {
+function List(props) {
   return (
     <Card className="list-container">
       <ul>
-        <ListItem />
+        {props.users.map((user) => (
+          <li key={user.id}>
+            {user.name} - {user.age}
+          </li>
+        ))}
       </ul>
     </Card>
   )
