@@ -1,0 +1,31 @@
+.blackout {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #00000099;
+}
+
+.modal {
+  position: relative;
+  top: 10rem;
+  background-color: #fff;
+  width: 60%;
+  text-align: center;
+}
+
+.modal__header {
+  height: 50px;
+  padding: 10px 10px 20px;
+  background-color: #8d8ecc;
+}
+
+.modal__header h2 {
+  font-weight: 500;
+  color: #292929;
+}
+
+.modalfooter {
+  padding: 20px;
+}
