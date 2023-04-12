@@ -1,3 +1,12 @@
 # Users List.
 
-In this project, I'm learning react. I am learning to create modules, work with styles, use react hooks, create modal windows, etc.
+This is a learning project. During the development of this application, I learned:
+
+- creating components
+- props
+- useState
+- work with lists and validation
+- work with styles
+- creating modal window
+- Fragments
+- Portals

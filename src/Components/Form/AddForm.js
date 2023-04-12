@@ -2,7 +2,7 @@ import './AddForm.css'
 import Card from '../UI/Card'
 import Button from '../UI/Button'
 import ErrorModal from '../UI/ErrorModal'
-import React, { useState } from 'react'
+import React, { useState, Fragment } from 'react'
 
 function AddForm(props) {
   const [inputUserName, setInputUserName] = useState('')
@@ -41,7 +41,7 @@ function AddForm(props) {
   const closeModalHandler = () => setError(false)
 
   return (
-    <div>
+    <Fragment>
       {error && <ErrorModal error={error} onCloseModal={closeModalHandler} />}
       <Card className="input-form">
         <form>
@@ -64,7 +64,7 @@ function AddForm(props) {
           </Button>
         </form>
       </Card>
-    </div>
+    </Fragment>
   )
 }
 
